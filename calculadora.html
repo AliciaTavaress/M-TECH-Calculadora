@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="cabeçalho">
+        <div class="logo">
+            <img src="MTECH.png" alt="Logo" class="logo1">
+        </div>
+        <h1 class="titulo">Calculadora</h1>
+        <p class="texto">
+            Calculadora para resolver operações basicas.
+        </p>
+    </div>
+
+    <div class="Calculadora">
+        <input type="text" id="tela">
+        <div class="butões">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('0')">0</button>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+
+    <footer>
+        <div class="rodapé">
+            <img src="Logo Azul.png" alt="logo" class="logo2">
+            <div class="texto">
+                <p class="p1">Desenvolvido por: Alicia Tavares</p>
+                <p class="p1">Edifício Central</p>
+                <p class="p1">61 98882-5563</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
